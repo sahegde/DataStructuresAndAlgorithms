@@ -1,0 +1,59 @@
+<PaymentReceivingPreferences>
+	<BlockUnconfirmedUSAddressPayments>true
+	</BlockUnconfirmedUSAddressPayments>
+	<BlockNonUSPayments>true</BlockNonUSPayments>
+	<BlockeCheckPayments>false</BlockeCheckPayments>
+	<BlockCrossCurrencyPayments>false</BlockCrossCurrencyPayments>
+	<BlockSendMoneyPayments>true</BlockSendMoneyPayments>
+	<AlternatePaymentURL>www.test.com</AlternatePaymentURL>
+	<DisplayInstructionsTextInput>false</DisplayInstructionsTextInput>
+	<CCSoftDescriptor>SOFTDESC123</CCSoftDescriptor>
+	<CCSoftDescriptorExtended>EXTENDEDDESC1234567
+	</CCSoftDescriptorExtended>
+</PaymentReceivingPreferences>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ASF_Service_RequestVO id="1">
+	<service type="String">AccountManagementServ</service>
+	<operation type="String">UpdatePaymentReceivingPreferences</operation>
+	<requested_version type="String">1.0</requested_version>
+	<client_version type="String">1.0-114.0-10958405</client_version>
+	<client_ip type="String">10.57.209.93</client_ip>
+	<no_response type="bool">false</no_response>
+	<no_confirm type="bool">false</no_confirm>
+	<correlation_id type="String">252cbb80c5260</correlation_id>
+	<pool_name type="String">stage2cog04_mfbatchd-account-management</pool_name>
+	<client_pid type="sint32">665</client_pid>
+	<pool_stack type="String">stage2cog04_mfbatchd-account-management:init*CalThreadId=0*TopLevelTxnStartTime=14667365d0e*Host=stage2cog04</pool_stack>
+	<params id="2" type="Merchant::UpdatePaymentReceivingPreferencesRequest">
+		<validate_only type="bool">true</validate_only>
+		<common_request id="3" type="Merchant::CommonRequestVO">
+			<merchant_id type="String"></merchant_id>
+			<account_number type="uint64">0</account_number>
+		</common_request>
+		<payment_receiving_preferences id="4"
+			type="Merchant::PaymentReceivingPreferencesVO">
+			<alternate_payment_url type="String">http://www.us.com</alternate_payment_url>
+			<display_instructions_text_input
+				type="bool">false</display_instructions_text_input>
+			<cc_statement_name type="String">ccsoftdesc</cc_statement_name>
+			<extended_cc_statement_name type="String">ccsoftext</extended_cc_statement_name>
+			<country_code type="String">US</country_code>
+			<preferences type="Merchant::PaymentRecvPrefVO" length="3"
+				repeating="true">
+				<item id="5">
+					<pref_id type="sint32">4</pref_id>
+					<pref_value type="sint32">0</pref_value>
+				</item>
+				<item id="6">
+					<pref_id type="sint32">8</pref_id>
+					<pref_value type="sint32">0</pref_value>
+				</item>
+				<item id="7">
+					<pref_id type="sint32">6</pref_id>
+					<pref_value type="sint32">1</pref_value>
+				</item>
+			</preferences>
+		</payment_receiving_preferences>
+	</params>
+</ASF_Service_RequestVO>

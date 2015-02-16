@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<body>
+			<script type="text/javascript">
+				function super(){
+					var temp = '8';
+					function sub(){
+						temp = temp +1;
+						alert(temp);
+					}
+				}
+				super();
+				super.sub();
+			</script>
+		</body>
+	</head>
+</html>

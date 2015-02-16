@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASF_Service_RequestVO id="1">
+	<service type="String">AccountManagementServ</service>
+	<operation type="String">EnrollMAMAccount</operation>
+	<requested_version type="String">1.0</requested_version>
+	<client_version type="String">1.0-117.0-12248170</client_version>
+	<client_ip type="String">10.57.93.194</client_ip>
+	<no_response type="bool">false</no_response>
+	<no_confirm type="bool">false</no_confirm>
+	<correlation_id type="String">25a10ceae280f</correlation_id>
+	<pool_name type="String">stage2md041_mfbatchd-account-management
+	</pool_name>
+	<client_pid type="sint32">13703</client_pid>
+	<pool_stack type="String">stage2md041_mfbatchd-account-management:MF_BATCH_D_ITEM*CalThreadId=0*TopLevelTxnStartTime=147b47f9bc4*Host=stage2md041
+	</pool_stack>
+	<params id="2" type="Merchant::EnrollMAMAccountRequest">
+		<validate_only type="bool">true</validate_only>
+		<partner_account_number type="uint64">1291590245873193883
+		</partner_account_number>
+		<country_code type="String">KR</country_code>
+		<partner_tax_reporting type="bool">true
+		</partner_tax_reporting>
+		<common_request id="3" type="Merchant::CommonRequestVO">
+			<merchant_id type="String"></merchant_id>
+			<account_number type="uint64">0</account_number>
+			<visitor_info id="4" type="Merchant::VisitorInfoVO">
+				<visitor_id type="String">XK5M6H47H74WC</visitor_id>
+				<ip_address type="String">0.0.0.0</ip_address>
+			</visitor_info>
+		</common_request>
+		<account_permissions type="Merchant::AccountPermissionsVO"
+			length="1" repeating="true">
+			<item id="5">
+				<services type="String" length="6" repeating="true">
+					<item>Express Checkout</item>
+					<item>Recurring Payment</item>
+					<item>Extended Pro Processing</item>
+					<item>Exception Processing</item>
+					<item>Mass Pay</item>
+					<item>Encrypted Website Payments</item>
+				</services>
+				<third_party_account_id type="String"></third_party_account_id>
+			</item>
+		</account_permissions>
+	</params>
+</ASF_Service_RequestVO>
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ASF_Service_RequestVO id="1">
+	<service type="String">AccountManagementServ</service>
+	<operation type="String">EnrollMAMAccount</operation>
+	<requested_version type="String">1.0</requested_version>
+	<client_version type="String">1.0-117.0-12248170</client_version>
+	<client_ip type="String">10.57.93.194</client_ip>
+	<no_response type="bool">false</no_response>
+	<no_confirm type="bool">false</no_confirm>
+	<correlation_id type="String">2fb3345dc061</correlation_id>
+	<pool_name type="String">stage2md041_mfbatchd-account-management
+	</pool_name>
+	<client_pid type="sint32">32755</client_pid>
+	<pool_stack type="String">stage2md041_mfbatchd-account-management:MF_BATCH_D_ITEM*CalThreadId=0*TopLevelTxnStartTime=147ab7d386a*Host=stage2md041
+	</pool_stack>
+	<params id="2" type="Merchant::EnrollMAMAccountRequest">
+		<validate_only type="bool">true</validate_only>
+		<partner_account_number type="uint64">1674434170811654397
+		</partner_account_number>
+		<country_code type="String">GB</country_code>
+		<common_request id="3" type="Merchant::CommonRequestVO">
+			<merchant_id type="String"></merchant_id>
+			<account_number type="uint64">0</account_number>
+			<visitor_info id="4" type="Merchant::VisitorInfoVO">
+				<visitor_id type="String">UMLP9VRLXYA6G</visitor_id>
+				<ip_address type="String">0.0.0.0</ip_address>
+			</visitor_info>
+		</common_request>
+	</params>
+</ASF_Service_RequestVO>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ASF_Service_RequestVO id="1">
+	<service type="String">AccountManagementServ</service>
+	<operation type="String">EnrollMAMAccount</operation>
+	<requested_version type="String">1.0</requested_version>
+	<client_version type="String">1.0-117.0-12248170</client_version>
+	<client_ip type="String">10.57.93.194</client_ip>
+	<no_response type="bool">false</no_response>
+	<no_confirm type="bool">false</no_confirm>
+	<correlation_id type="String">8ba02e24c55a5</correlation_id>
+	<pool_name type="String">stage2md041_mfbatchd-account-management
+	</pool_name>
+	<client_pid type="sint32">22744</client_pid>
+	<pool_stack type="String">stage2md041_mfbatchd-account-management:MF_BATCH_D_ITEM*CalThreadId=0*TopLevelTxnStartTime=147acba2670*Host=stage2md041
+	</pool_stack>
+	<params id="2" type="Merchant::EnrollMAMAccountRequest">
+		<validate_only type="bool">true</validate_only>
+		<partner_account_number type="uint64">1907963845095210132
+		</partner_account_number>
+		<partner_merchant_external_id type="String">PartnerExtID
+		</partner_merchant_external_id>
+		<country_code type="String">US</country_code>
+		<common_request id="3" type="Merchant::CommonRequestVO">
+			<merchant_id type="String"></merchant_id>
+			<account_number type="uint64">0</account_number>
+			<visitor_info id="4" type="Merchant::VisitorInfoVO">
+				<visitor_id type="String">EBM4MY6VTUYJJ</visitor_id>
+				<ip_address type="String">0.0.0.0</ip_address>
+			</visitor_info>
+		</common_request>
+		<account_permissions type="Merchant::AccountPermissionsVO"
+			length="1" repeating="true">
+			<item id="5">
+				<services type="String" length="7" repeating="true">
+					<item>Express Checkout</item>
+					<item>Recurring Payment</item>
+					<item>Extended Pro Processing</item>
+					<item>Exception Processing</item>
+					<item>Mass Pay</item>
+					<item>Dispute Resolution</item>
+					<item>Shared Refund</item>
+				</services>
+				<third_party_account_id type="String"></third_party_account_id>
+			</item>
+		</account_permissions>
+	</params>
+</ASF_Service_RequestVO>
+
+
+
+
+
+1407478433.391233 27699 info [accountmanagementserv]: Throwing
+UserException from method
+User::UserAccountAdapterPBWireOff::load_by_account_number. Exception:
+UserException: message 'AccountPB::load_by_account_number StandIn
+invalid account_number :0', return code: 3508 Backtrace:
+User::UserException::UserException(String const&, String const&, String
+const&, int, String const&, int, String const&)
+User::UserAccountAdapterPBWireOff::load_by_account_number(unsigned long
+long, ForUpdate, bool) User::UserFlagsBLIImpl::set_flag(unsigned long
+long, unsigned long, unsigned long, bool)
+Merchant::AccountManagementServImpl::EnrollMAMAccount(ASF::Server::RequestContext
+const&, Merchant::EnrollMAMAccountRequest const&,
+Merchant::EnrollMAMAccountResponse&)
+Merchant::AccountManagementServService::invoke(ASF::Server::RequestContext
+const&, ValueObject const&, ValueObject&)
+ASF::Server::RequestContext::enable_early_response_invoke(ASF::Service::ServiceHandler&,
+ValueObject const&, ValueObject&, ASF::IO::Multiplexer*,
+ASF::Service::ResponseVO&, ASF::Protocol::HttpRPCProcessor&, String
+const&, LogWriterBase&)
+ASF::Server::LocalRequestHandler::handle(ASF::Protocol::HttpRPCProcessor*,
+ASF::Protocol::HttpRPCMessageParser&, ASF::Server::EndpointServices&)
+ASF::Server::EndpointServices::handle(ASF::Protocol::HttpRPCProcessor*,
+ASF::Protocol::HttpRPCMessageParser&)
+ASF::Protocol::HttpRPCProcessor::on_read_complete()
+ASF::IO::SelectSet::signal_events() ASF::IO::Multiplexer::call_select()
+ASF::IO::Multiplexer::io() ASF::Server::Server::io()
+ASF::Server::Server::run() ASF::AppServer::run() main In FILE
+biz/User/implementation/wire-off/UserAccountAdapterPBWireOff.cpp at Line
+272
+1407478433.455969 27699 info [accountmanagementserv]: Propagating
+exception from service AccountManagementServ version 1.0-9999-12146912:
+UserException: message 'AccountPB::load_by_account_number StandIn
+invalid account_number :0', return code: 3508 Backtrace:
+User::UserException::UserException(String const&, String const&, String
+const&, int, String const&, int, String const&)
+User::UserAccountAdapterPBWireOff::load_by_account_number(unsigned long
+long, ForUpdate, bool) User::UserFlagsBLIImpl::set_flag(unsigned long
+long, unsigned long, unsigned long, bool)
+Merchant::AccountManagementServImpl::EnrollMAMAccount(ASF::Server::RequestContext
+const&, Merchant::EnrollMAMAccountRequest const&,
+Merchant::EnrollMAMAccountResponse&)
+Merchant::AccountManagementServService::invoke(ASF::Server::RequestContext
+const&, ValueObject const&, ValueObject&)
+ASF::Server::RequestContext::enable_early_response_invoke(ASF::Service::ServiceHandler&,
+ValueObject const&, ValueObject&, ASF::IO::Multiplexer*,
+ASF::Service::ResponseVO&, ASF::Protocol::HttpRPCProcessor&, String
+const&, LogWriterBase&)
+ASF::Server::LocalRequestHandler::handle(ASF::Protocol::HttpRPCProcessor*,
+ASF::Protocol::HttpRPCMessageParser&, ASF::Server::EndpointServices&)
+ASF::Server::EndpointServices::handle(ASF::Protocol::HttpRPCProcessor*,
+ASF::Protocol::HttpRPCMessageParser&)
+ASF::Protocol::HttpRPCProcessor::on_read_complete()
+ASF::IO::SelectSet::signal_events() ASF::IO::Multiplexer::call_select()
+ASF::IO::Multiplexer::io() ASF::Server::Server::io()
+ASF::Server::Server::run() ASF::AppServer::run() main
+
+
+

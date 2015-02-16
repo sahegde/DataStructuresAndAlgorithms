@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<ASF_Service_RequestVO typesig="ffffffffa0a11514"
+	id="1">
+	<service type="String">BusinessLifecycle</service>
+	<operation type="String">update_business_entities</operation>
+	<client_version type="String">1.0</client_version>
+	<client_ip type="String">10.64.255.185</client_ip>
+	<params typesig="2b6dd9ba263aafd0" type="Merchant::UpdateBusinessEntitiesRequest"
+		id="2">
+		<client_actor typesig="fffff5341d8bfa0c" type="Common::ActorInfoVO"
+			id="3">
+			<actor_type type="sint8">3</actor_type>
+			<actor_account_number type="ullong">1918114688738736102</actor_account_number>
+			<actor_id type="ullong">123456789</actor_id>
+			<actor_session_id type="String">2131232321</actor_session_id>
+			<actor_ip_addr type="String">10.242.81.85</actor_ip_addr>
+			<entry_point type="String">http://uri.paypal.com/Web/Web/Consumer/cobspartaweb/ApplyKB</entry_point>
+			<visitor_id type="ullong">6124895493923317974</visitor_id>
+		</client_actor>
+		<account_identifier typesig="4e52899f7852"
+			type="Merchant::AccountIdentifierVO" id="4">
+			<account_type type="String">P</account_type>
+			<paypal_account typesig="ffffffffbb8748ea"
+				type="Merchant::PaypalAccountIdentifierVO" id="5">
+				<email_address type="String">skarri-pro-1@paypal.com</email_address>
+				<account_number type="ullong">1918114688738736102</account_number>
+			</paypal_account>
+		</account_identifier>
+		<business_info_criteria typesig="ffffc9a71b2a12ea"
+			type="Merchant::BusinessInfoCriteriaVO" id="6">
+			<business_name_criteria type="bool">true</business_name_criteria>
+			<business_established_criteria type="bool">true</business_established_criteria>
+			<business_email_criteria type="bool">false</business_email_criteria>
+			<business_shipping_info_criteria
+				type="bool">false</business_shipping_info_criteria>
+			<business_supplier_info_criteria
+				type="bool">false</business_supplier_info_criteria>
+			<business_incorp_date_criteria type="bool">false</business_incorp_date_criteria>
+			<business_incorporation_criteria
+				type="bool">true</business_incorporation_criteria>
+			<business_type_criteria type="bool">true</business_type_criteria>
+			<business_category_criteria type="bool">true</business_category_criteria>
+			<business_operation_criteria type="bool">true</business_operation_criteria>
+			<business_url_criteria type="bool">true</business_url_criteria>
+			<business_website_url_criteria type="bool">false</business_website_url_criteria>
+			<business_id_criteria type="bool">true</business_id_criteria>
+			<business_description_criteria type="bool">false</business_description_criteria>
+			<pos_merchant_info_criteria type="bool">false</pos_merchant_info_criteria>
+			<business_stakeholders_criteria type="bool">false</business_stakeholders_criteria>
+			<is_bankrupt_criteria type="bool">false</is_bankrupt_criteria>
+			<third_party_criteria type="bool">false</third_party_criteria>
+			<discover_profile_criteria type="bool">false</discover_profile_criteria>
+		</business_info_criteria>
+		<business_info typesig="3d9b479244448238" type="Merchant::UpdateBusinessInfoVO"
+			id="7">
+			<business_names repeating="true" type="Merchant::BusinessNameVO">
+				<item typesig="fffffffff7561fa0" type="Merchant::BusinessNameVO"
+					id="8">
+					<name type="String">ksuni</name>
+					<type type="int">1</type>
+				</item>
+				<item typesig="fffffffff7561fa0" type="Merchant::BusinessNameVO"
+					id="9">
+					<name type="String">ksuni</name>
+					<type type="int">3</type>
+				</item>
+			</business_names>
+			<business_incorporation typesig="270e45393251"
+				type="Merchant::BusinessEstablishedVO" id="10">
+				<company_founded typesig="2bb7a765"
+					type="Merchant::CompanyFoundedVO" id="11">
+					<company_founded_date type="int">19780101</company_founded_date>
+				</company_founded>
+			</business_incorporation>
+			<business_type typesig="4daa3b2" type="Merchant::BusinessTypeVO"
+				id="12">
+				<business_type type="int">3</business_type>
+			</business_type>
+			<business_category typesig="ffffffff9cbac455"
+				type="Merchant::BusinessCategoryVO" id="13">
+				<business_category type="String">1000</business_category>
+				<business_subcategory type="String">2005</business_subcategory>
+			</business_category>
+			<business_operation typesig="a0e62fe5e082839e"
+				type="Merchant::BusinessOperationVO" id="14">
+				<average_price typesig="ffffa8545a0b9bd5" type="Merchant::CurrencyRangeVO"
+					id="15">
+					<lowerBound typesig="ffffffff983627f8" type="Merchant::CurrencyVO"
+						id="16">
+						<code type="String">USD</code>
+						<amount type="llong">10000</amount>
+					</lowerBound>
+				</average_price>
+				<revenue_from_online_sales typesig="1d0ffe4d"
+					type="Merchant::UllongRangeVO" id="17">
+					<lowerBound type="ullong">75</lowerBound>
+				</revenue_from_online_sales>
+				<average_monthly_volume typesig="ffffa8545a0b9bd5"
+					type="Merchant::CurrencyRangeVO" id="18">
+					<lowerBound typesig="ffffffff983627f8" type="Merchant::CurrencyVO"
+						id="19">
+						<code type="String">USD</code>
+						<amount type="llong">2500000</amount>
+					</lowerBound>
+				</average_monthly_volume>
+				<sales_venues repeating="true" type="Merchant::SalesVenueVO">
+					<item typesig="ffffffffa8ee40f4" type="Merchant::SalesVenueVO"
+						id="20">
+						<type type="String">OwnWebSite</type>
+					</item>
+				</sales_venues>
+			</business_operation>
+			<business_ids repeating="true" type="Merchant::BusinessIDVO">
+				<item typesig="ffffffff9910ed9e" type="Merchant::BusinessIDVO"
+					id="21">
+					<gov_id_type type="int">1</gov_id_type>
+					<business_id type="String">12-3123123</business_id>
+				</item>
+			</business_ids>
+			<url repeating="true" type="Merchant::NewBusinessUrlVO">
+				<item typesig="26176f26" type="Merchant::NewBusinessUrlVO" id="22">
+					<type type="int">1</type>
+					<url type="String">http://www.mybus.com</url>
+				</item>
+			</url>
+		</business_info>
+		<validate_only type="bool">true</validate_only>
+	</params>
+	<correlation_id type="String">566ca5ec9db83</correlation_id>
+	<pool_name type="String">onboardingv2serv</pool_name>
+	<client_pid type="int">6504</client_pid>
+	<pool_stack type="String">onboardingv2serv:validate_current_step*CalThreadId=547*TopLevelTxnStartTime=14ac8c9c27a*Host=stage2c7426.qa.paypal.com*pid=6504</pool_stack>
+</ASF_Service_RequestVO>
